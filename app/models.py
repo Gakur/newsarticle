@@ -1,3 +1,13 @@
+class Source:
+    '''
+    Class that helps to define source objects
+    '''
+    def __init__(self,id,name,description,url):
+        self.id = id
+        self.name = name
+        self.description = description
+        self.url = url
+
 class Article:
     '''
     Class that instantiates objects of the news article objects of the news sources
@@ -22,15 +32,6 @@ class Category:
         self.image = image
         self.title = title
 
-class Source:
-    '''
-    Source class to define source objects
-    '''
-    def __init__(self,id,name,description,url):
-        self.id = id
-        self.name = name
-        self.description = description
-        self.url = url
 
 class Headlines:
     '''
